@@ -137,9 +137,8 @@ npm start
 
 🙋‍♂️ Author
 
-Mragank JaitlyLinkedIn | GitHub
+Mragank Jaitly
 
 Feel free to ⭐ the repository if you liked it!
 
-📸 Screenshots
 
