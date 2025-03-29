@@ -5,7 +5,13 @@ const sequelize = require("./config/database");
 const seatRoutes = require("./routes/seatRoutes");
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://your-netlify-site.netlify.app", // ✅ Replace this!
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 app.use("/api/seats", seatRoutes);
 
