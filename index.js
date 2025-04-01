@@ -7,7 +7,7 @@ const seatRoutes = require("./routes/seatRoutes");
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://sparkly-crepe-267973.netlify.app/"],
+    origin: "https://sparkly-crepe-267973.netlify.app/",
     credentials: true,
   })
 );
